@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "style guide"
-baseURL:                "https://getbootstrap.com"
+baseURL:                "https://humanit-pt.github.io/Style-Guide"
 enableInlineShortcodes: true
 
 markup:
