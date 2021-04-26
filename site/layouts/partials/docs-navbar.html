@@ -6,13 +6,13 @@
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
       <li class="nav-item">
-        <a class="nav-link{{ if .IsHome }} active{{ end }}" href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Style guide docs POC</a>
+        <a class="nav-link{{ if .IsHome }} active{{ end }}" href="/Style-Guide/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Style guide docs POC</a>
       </li>
       <!-- <li class="nav-item">
-        <a class="nav-link{{ if eq .Page.Layout "docs" }} active{{ end }}" href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
+        <a class="nav-link{{ if eq .Page.Layout "docs" }} active{{ end }}" href="/Style-Guide/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Documentation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link{{ if eq .Page.Title "Examples" }} active{{ end }}" href="/docs/{{ .Site.Params.docs_version }}/examples/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Examples</a>
+        <a class="nav-link{{ if eq .Page.Title "Examples" }} active{{ end }}" href="/Style-Guide/docs/{{ .Site.Params.docs_version }}/examples/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Examples</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ .Site.Params.icons }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Icons');" target="_blank" rel="noopener">Icons</a>
@@ -35,7 +35,7 @@
         v{{ .Site.Params.docs_version }}
       </a>
       <div class="dropdown-menu dropdown-menu-md-right" aria-labelledby="bd-versions">
-        <a class="dropdown-item active" href="/docs/{{ .Site.Params.docs_version }}/">Latest (4.6.x)</a>
+        <a class="dropdown-item active" href="/Style-Guide/docs/{{ .Site.Params.docs_version }}/">Latest (4.6.x)</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="https://getbootstrap.com/docs/5.0/">5.0.x</a>
         <div class="dropdown-divider"></div>
@@ -68,5 +68,5 @@
     </li> -->
   </ul>
 
-  <a class="btn btn-bd-download1 btn-outline-light d-lg-inline-block my-2 my-md-0 ms-md-3" href="/docs/{{ .Site.Params.docs_version }}/getting-started/download/">Download</a>
+  <a class="btn btn-bd-download1 btn-outline-light d-lg-inline-block my-2 my-md-0 ms-md-3" href="/Style-Guide/docs/{{ .Site.Params.docs_version }}/getting-started/download/">Download</a>
 </header>
