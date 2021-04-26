@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "style guide"
-baseURL:                "https://humanit-pt.github.io/Style-Guide"
+baseURL:                "https://getbootstrap.com"
 enableInlineShortcodes: true
 
 markup:
@@ -25,7 +25,7 @@ publishDir:             "_site"
 module:
   mounts:
     - source:           dist
-      target:           static/docs/4.6/dist
+      target:           static/Style-Guide/docs/4.6/dist
     - source:           site/assets
       target:           assets
     - source:           site/content
