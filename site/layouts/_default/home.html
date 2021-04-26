@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "header" . }}
+  </head>
+  <body>
+    <!-- {{ partial "skippy" . }}
+
+    {{ partial "docs-navbar" . }}
+
+    {{ partial "home/masthead" . }}
+    {{ partial "home/masthead-followup" . }}
+
+    {{ .Content }}
+
+    {{ partial "footer" . }}
+    {{ partial "scripts" . }} -->
+
+    {{ partial "docs-navbar" . }}
+    <div class="row">
+      <div class="container-full-bg container-fluid">
+        <div class="jumbotron" style="height: 100vh">
+          <div class="container">
+            <h1 class="display-4">How to started</h1>
+            <p class="lead">
+              In the style guide will be possible to have an ideia of what type
+              of components, system design and rules can be used .
+            </p>
+            <p class="lead">
+              For better understand go to
+              <a
+                href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/"
+                onclick="ga('send', 'event', 'Navbar', 'Commun⁄ity links', 'Docs');"
+              >
+                style guide docs POC</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
