@@ -454,7 +454,7 @@ Bootstrap 4 includes around two dozen [CSS custom properties (variables)](https:
 
 Here are the variables we include (note that the `:root` is required). They're located in our `_root.scss` file.
 
-```css
+```
 {{< root.inline >}}
 {{- $css := readFile "dist/css/bootstrap.css" -}}
 {{- $match := findRE ":root {([^}]*)}" $css 1 -}}
