@@ -13,7 +13,7 @@ While you won't find a built-in icon library in Bootstrap, our separate [Bootstr
 
 <img class="img-fluid mt-3 mx-auto" srcset="/docs/{{< param docs_version >}}/assets/img/bootstrap-icons.png,
                                             /docs/{{< param docs_version >}}/assets/img/bootstrap-icons@2x.png 2x"
-                                            src="/docs/{{< param docs_version >}}/assets/img/bootstrap-icons.png"
+                                            src="Style-Guide/docs/{{< param docs_version >}}/assets/img/bootstrap-icons.png"
                                             alt="Bootstrap Icons" width="966" height="600" loading="lazy">
 
 
